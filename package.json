@@ -1,9 +1,8 @@
 {
   "name": "vue-slash-routes-quickstart",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "yarn serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
