@@ -68,11 +68,11 @@ And creating a new project using Vue 3 and Vue Router and the choice to have sla
 
 ## Resources
 
-For a setup using the plain hash routes, see Vue Router Quickstart:
+For a setup using the plain _hash_ routes, see Vue Router Quickstart:
 
 - [![MichaelCurrin - vue-router-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-router-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-router-quickstart)
--
-For a setup without Vue Router, see Vue Quickstart:
+
+For a setup _without_ Vue Router, see Vue Quickstart:
 
 - [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
 
@@ -90,6 +90,14 @@ $ yarn install
 ```sh
 $ yarn start
 ```
+
+Open the browser at:
+
+- http://localhost:8080/
+
+The second page is at:
+
+- http://localhost:8080/about
 
 
 ## License
