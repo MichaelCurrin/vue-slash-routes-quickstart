@@ -43,7 +43,11 @@ But this app is configured to use path-based routes that use slash-based routing
 
 This is done thanks to the HTML5 History API - Vue is able to to push changes to the URL's history.
 
-### Error package
+This logic is set up in [src/router/index.js](/src/router/index.js) using `createWebHistory` from `vue-router`. It's docstring says:
+
+> Creates an HTML5 history. Most common history for single page applications.
+
+### Error page
 
 Normally a bad path like this would still look like app outline, but with no content.
 
