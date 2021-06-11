@@ -30,34 +30,9 @@
 
 ## About
 
-### Hash paths
+### Routing
 
-Normally all the URLs on a Vue app are on a hash path.
-
-- `/#/`
-- `/#/about`
-
-### Slash paths
-
-But this app is configured to use path-based routes that use slash-based routing instead of hash-based.
-
-This is done thanks to the HTML5 History API - Vue is able to to push changes to the URL's history.
-
-This logic is set up in [src/router/index.js](/src/router/index.js) using `createWebHistory` from `vue-router`. It's docstring says:
-
-> Creates an HTML5 history. Most common history for single page applications.
-
-### Error page
-
-Normally a bad path like this would still look like app outline, but with no content.
-
-- `/#/not-a-path`
-
-Now if you use slash-based routing and you send someone to a bad path like this, they'll see an ugly server error.
-
-- `/not-a-path`
-
-So docs recommend you to set up a fallback for bad URLs around 404 error so that you root to page. You need to do this in an Nginx config, or if use use Netlify you can set up some `404.html` page or root if a path is not matched (I don't know how you easily define the good paths in both the app and the Netlify config though).
+This app uses slash-based routing rather than hash-based routing. See [src/router/index.js](/src/router/index.js).
 
 ### Project creation
 
